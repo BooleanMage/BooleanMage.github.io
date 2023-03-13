@@ -18,22 +18,44 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: PosetMage
+email: mail@posetmage.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  See more in About Me. This is PosetMage, loving ACGN.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://posetmage.com" # the base hostname & protocol for your site, e.g. http://example.com
+youtube_username: "@PosetMage"
+facebook_username: PosetMage
+twitter_username: PosetMage
+github_username:  PosetMage
+settingbook_link: "https://posetmage.com/SettingBook"
+
+site_favicon: favicon.ico
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      categories: "uncategorized"
+
+feed:
+  title: "PosetMage"
+  description: "PosetMage"
+  author: "PosetMage"
+  email: "mail@posetmage.com"
+  url: "https://posetmage.com"
+  output: true
+
 
 # Build settings
 theme: minima
 plugins:
+  - jekyll-external-links
   - jekyll-feed
-
+  
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
