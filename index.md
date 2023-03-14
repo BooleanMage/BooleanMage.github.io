@@ -2,8 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
 ---
+
 
 歡迎來到 PosetMage 的主頁，想要認識更多請到 [About Me](/About)
 
@@ -12,3 +13,9 @@ layout: home
 子品牌為 [LatticeMage](https://wiki.posetmage.com)
 
 連絡我的方式請至 [Contact](/Contact)
+
+<ul>
+  {% for category in site.categories %}
+    <li><a href="/{{ category | first | slugify }}/">{{ category | first }}</a></li>
+  {% endfor %}
+</ul>
