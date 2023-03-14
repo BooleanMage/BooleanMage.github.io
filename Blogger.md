@@ -3,7 +3,7 @@ layout: page
 title: Blogger
 permalink: /Blogger/
 redirect_from:
-  - /categories/
+  - /blogger/
   - /tag/
   - /tags/
 ---
