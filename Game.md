@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: post
-title: "Game Articles"
+title: "_Game"
 permalink: /Game/
 redirect_from:
   - /game/
