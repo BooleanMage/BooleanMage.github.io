@@ -36,6 +36,9 @@ site_favicon: favicon.ico
 categories:
   - ACGN
   - Game
+  - category1
+  - category2
+  - category3
 
 feed:
   title: "PosetMage"
