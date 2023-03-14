@@ -32,6 +32,11 @@ settingbook_link: "https://posetmage.com/SettingBook"
 
 site_favicon: favicon.ico
 
+
+categories:
+  - ACGN
+  - Game
+
 feed:
   title: "PosetMage"
   description: "PosetMage"
