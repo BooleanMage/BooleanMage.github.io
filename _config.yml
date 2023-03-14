@@ -32,15 +32,6 @@ settingbook_link: "https://posetmage.com/SettingBook"
 
 site_favicon: favicon.ico
 
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true
-      categories: "uncategorized"
-
 feed:
   title: "PosetMage"
   description: "PosetMage"
