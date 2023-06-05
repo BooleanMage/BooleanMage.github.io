@@ -13,10 +13,10 @@ LatticeMage是PosetMage的子品牌，這個頻道主軸是下個世代思維，
 
 ## [YT - LatticeMage](http://youtube.com/@LatticeMage)
 
-## [知識庫](/Knowledge/Knowledge)
+## [知識庫](./Knowledge)
 知識庫為創作用的參考區
 
-## [上課教材](/Lecture/Lecture)
+## [上課教材](./Lecture)
 上課教材是1v1家教用的講義
 
 ## [About Me](http://posetmage.com/about/)
