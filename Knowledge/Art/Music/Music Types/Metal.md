@@ -1,6 +1,13 @@
 ---
 layout: default
-title: Metal
 ---
 
-[Metal](./Metal)  
+
+
+---
+tags:
+  - [[Music]]
+
+
+---
+

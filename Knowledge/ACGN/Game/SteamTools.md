@@ -1,6 +1,20 @@
 ---
 layout: default
-title: SteamTools
 ---
 
-[SteamTools](./SteamTools)  
+# SteamTools
+
+https://steamspy.com/search.php
+
+https://steamdb.info/sales/
+
+https://howlongtobeat.com/
+
+
+---
+tags:
+  - [[Game]]
+  - [[Steam]]
+
+
+---
