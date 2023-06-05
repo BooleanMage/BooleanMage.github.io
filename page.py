@@ -4,7 +4,7 @@ import glob
 folders = ["./Knowledge", "./Lecture"]
 
 def write_md_file(folder_path):
-    with open(f"{folder_path}_folder.md", 'w', encoding='utf8') as f:
+    with open(f"{folder_path}.md", 'w', encoding='utf8') as f:
         for filename in glob.glob(f"{folder_path}/*"):
             # skip the .md file we're currently writing
             if filename == f"{folder_path}":
@@ -15,14 +15,14 @@ def write_md_file(folder_path):
 
             # check if this is a directory
             if os.path.isdir(filename):
-                f.write(f'[{basename}](./{basename}_folder/)  \n')  # add .md to link
+                f.write(f'[{basename}](./{basename})  \n')  # add .md to link
                 # Recursively process the subdirectory
                 write_md_file(filename)
             else:
                 # split the extension from the filename
                 name, ext = os.path.splitext(basename)
                 if ext == '.md':
-                    f.write(f'[{name}](./{name}.html)  \n')
+                    f.write(f'[{name}](./{name})  \n')
 
 for folder in folders:
     write_md_file(folder)

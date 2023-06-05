@@ -2,3 +2,4 @@
 layout: default
 ---
 
+[Galgame](./Galgame)  

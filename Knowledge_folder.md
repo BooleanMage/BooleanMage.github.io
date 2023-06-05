@@ -1,7 +1,0 @@
-[ACGN](./ACGN_folder/)  
-[Applied Sciences](./Applied Sciences_folder/)  
-[Art](./Art_folder/)  
-[Humanities](./Humanities_folder/)  
-[Natural Science](./Natural Science_folder/)  
-[Others](./Others_folder/)  
-[Social Science](./Social Science_folder/)  

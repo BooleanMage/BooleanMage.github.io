@@ -1,6 +1,0 @@
-[AI溝通師](./AI溝通師_folder/)  
-[Podcast](./Podcast.html)  
-[作曲](./作曲_folder/)  
-[程式](./程式_folder/)  
-[繪圖](./繪圖_folder/)  
-[通用](./通用_folder/)  
