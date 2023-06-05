@@ -3,12 +3,4 @@ layout: default
 title: Classical
 ---
 
-
-
----
-tags:
-  - [[Music]]
-
-
----
-
+[Classical](./Classical)  

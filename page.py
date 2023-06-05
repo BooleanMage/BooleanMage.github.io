@@ -4,25 +4,29 @@ import glob
 folders = ["./Knowledge", "./Lecture"]
 
 def write_md_file(folder_path):
-    with open(f"{folder_path}.md", 'w', encoding='utf8') as f:
-        for filename in glob.glob(f"{folder_path}/*"):
-            # skip the .md file we're currently writing
-            if filename == f"{folder_path}":
-                continue
+    for filename in glob.glob(f"{folder_path}/*"):
+        # skip the .md file we're currently writing
+        if filename == f"{folder_path}.md":
+            continue
 
-            # extract just the name of the file/folder, without the preceding path
-            basename = os.path.basename(filename)
+        # extract just the name of the file/folder, without the preceding path
+        basename = os.path.basename(filename)
 
-            # check if this is a directory
-            if os.path.isdir(filename):
-                f.write(f'[{basename}](./{basename})  \n')  # add .md to link
-                # Recursively process the subdirectory
-                write_md_file(filename)
-            else:
-                # split the extension from the filename
-                name, ext = os.path.splitext(basename)
-                if ext == '.md':
+        # check if this is a directory
+        if os.path.isdir(filename):
+            with open(f"{filename}/{basename}.md", 'w', encoding='utf8') as f:
+                f.write(f'[{basename}](./{basename})  \n')  # add link to itself for testing
+            # Recursively process the subdirectory
+            write_md_file(filename)
+        else:
+            # split the extension from the filename
+            name, ext = os.path.splitext(basename)
+            if ext == '.md':
+                with open(filename, 'w', encoding='utf8') as f:
                     f.write(f'[{name}](./{name})  \n')
+
+for folder in folders:
+    write_md_file(folder)
 
 for folder in folders:
     write_md_file(folder)

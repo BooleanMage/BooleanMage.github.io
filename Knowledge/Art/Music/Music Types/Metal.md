@@ -3,12 +3,4 @@ layout: default
 title: Metal
 ---
 
-
-
----
-tags:
-  - [[Music]]
-
-
----
-
+[Metal](./Metal)  
