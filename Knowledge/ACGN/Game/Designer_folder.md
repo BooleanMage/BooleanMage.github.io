@@ -2,9 +2,9 @@
 layout: default
 ---
 
-[Game Balancing](./Game Balancing)  
-[Game Writer](./Game Writer)  
-[GameFlow](./GameFlow)  
-[Level Design](./Level Design)  
-[Operator](./Operator)  
-[System Designer](./System Designer)  
+[Game Balancing](./Game Balancing.html)  
+[Game Writer](./Game Writer.html)  
+[GameFlow](./GameFlow.html)  
+[Level Design](./Level Design.html)  
+[Operator](./Operator.html)  
+[System Designer](./System Designer.html)  

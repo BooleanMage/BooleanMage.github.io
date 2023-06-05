@@ -2,5 +2,5 @@
 layout: default
 ---
 
-[Brain](./Brain)  
-[Sleeping](./Sleeping)  
+[Brain](./Brain.html)  
+[Sleeping](./Sleeping.html)  

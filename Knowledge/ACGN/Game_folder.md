@@ -2,12 +2,12 @@
 layout: default
 ---
 
-[AVG](./AVG)  
-[Designer](./Designer)  
-[Game Classification](./Game Classification)  
-[Game Designer](./Game Designer)  
-[Game Designing](./Game Designing)  
-[OLG](./OLG)  
-[Rouguelike](./Rouguelike)  
-[Rouguelike](./Rouguelike)  
-[SteamTools](./SteamTools)  
+[AVG](./AVG_folder/)  
+[Designer](./Designer_folder/)  
+[Game Classification](./Game Classification.html)  
+[Game Designer](./Game Designer.html)  
+[Game Designing](./Game Designing.html)  
+[OLG](./OLG_folder/)  
+[Rouguelike](./Rouguelike_folder/)  
+[Rouguelike](./Rouguelike.html)  
+[SteamTools](./SteamTools.html)  

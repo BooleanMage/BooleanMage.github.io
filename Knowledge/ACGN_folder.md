@@ -2,4 +2,4 @@
 layout: default
 ---
 
-[Game](./Game)  
+[Game](./Game_folder/)  

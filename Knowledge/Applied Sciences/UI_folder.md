@@ -2,5 +2,5 @@
 layout: default
 ---
 
-[FaviconDesign](./FaviconDesign)  
-[FaviconDesign](./FaviconDesign)  
+[FaviconDesign](./FaviconDesign_folder/)  
+[FaviconDesign](./FaviconDesign.html)  

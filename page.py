@@ -15,14 +15,14 @@ def write_md_file(folder_path):
 
             # check if this is a directory
             if os.path.isdir(filename):
-                f.write(f'[{basename}](./{basename})  \n')  # add .md to link
+                f.write(f'[{basename}](./{basename}_folder/)  \n')  # add .md to link
                 # Recursively process the subdirectory
                 write_md_file(filename)
             else:
                 # split the extension from the filename
                 name, ext = os.path.splitext(basename)
                 if ext == '.md':
-                    f.write(f'[{name}](./{name})  \n')
+                    f.write(f'[{name}](./{name}.html)  \n')
 
 for folder in folders:
     write_md_file(folder)

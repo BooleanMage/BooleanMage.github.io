@@ -2,4 +2,4 @@
 layout: default
 ---
 
-[GalgameMaker](./GalgameMaker)  
+[GalgameMaker](./GalgameMaker.html)  

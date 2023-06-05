@@ -2,8 +2,8 @@
 layout: default
 ---
 
-[Biology](./Biology)  
-[Evolution](./Evolution)  
-[Mathematics](./Mathematics)  
-[Physics](./Physics)  
-[Physiology](./Physiology)  
+[Biology](./Biology_folder/)  
+[Evolution](./Evolution_folder/)  
+[Mathematics](./Mathematics_folder/)  
+[Physics](./Physics_folder/)  
+[Physiology](./Physiology_folder/)  

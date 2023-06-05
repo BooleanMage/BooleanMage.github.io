@@ -2,5 +2,5 @@
 layout: default
 ---
 
-[Communication](./Communication)  
-[QuestioningSkill](./QuestioningSkill)  
+[Communication](./Communication.html)  
+[QuestioningSkill](./QuestioningSkill.html)  

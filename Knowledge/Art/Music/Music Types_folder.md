@@ -2,10 +2,10 @@
 layout: default
 ---
 
-[Classical](./Classical)  
-[Djent](./Djent)  
-[Metal](./Metal)  
-[Minimalist](./Minimalist)  
-[PostMetal](./PostMetal)  
-[PostRock](./PostRock)  
-[Progressive Metal](./Progressive Metal)  
+[Classical](./Classical.html)  
+[Djent](./Djent.html)  
+[Metal](./Metal.html)  
+[Minimalist](./Minimalist.html)  
+[PostMetal](./PostMetal.html)  
+[PostRock](./PostRock.html)  
+[Progressive Metal](./Progressive Metal.html)  

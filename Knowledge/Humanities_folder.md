@@ -2,8 +2,8 @@
 layout: default
 ---
 
-[History](./History)  
-[Language](./Language)  
-[Philosophy](./Philosophy)  
-[未分類書單](./未分類書單)  
-[窮忙世界](./窮忙世界)  
+[History](./History_folder/)  
+[Language](./Language_folder/)  
+[Philosophy](./Philosophy_folder/)  
+[未分類書單](./未分類書單.html)  
+[窮忙世界](./窮忙世界.html)  

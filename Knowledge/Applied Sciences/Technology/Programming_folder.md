@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[GraphicAPIs](./GraphicAPIs)  
-[musicxml](./musicxml)  
-[Some Coding Arctile](./Some Coding Arctile)  
-[TrainingApp](./TrainingApp)  
+[GraphicAPIs](./GraphicAPIs.html)  
+[musicxml](./musicxml.html)  
+[Some Coding Arctile](./Some Coding Arctile.html)  
+[TrainingApp](./TrainingApp.html)  
