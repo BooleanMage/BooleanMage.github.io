@@ -2,12 +2,12 @@
 layout: default
 ---
 
-[AVG](./AVG)  
-[Designer](./Designer)  
+[AVG](./Game/AVG)  
+[Designer](./Game/Designer)  
 [Game Classification](./Game/Game Classification)  
 [Game Designer](./Game/Game Designer)  
 [Game Designing](./Game/Game Designing)  
-[OLG](./OLG)  
-[Rouguelike](./Rouguelike)  
+[OLG](./Game/OLG)  
+[Rouguelike](./Game/Rouguelike)  
 [Rouguelike](./Game/Rouguelike)  
 [SteamTools](./Game/SteamTools)  

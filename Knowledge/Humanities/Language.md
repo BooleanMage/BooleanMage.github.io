@@ -2,6 +2,6 @@
 layout: default
 ---
 
-[English](./English)  
-[Japanese](./Japanese)  
-[Linguistics](./Linguistics)  
+[English](./Language/English)  
+[Japanese](./Language/Japanese)  
+[Linguistics](./Language/Linguistics)  

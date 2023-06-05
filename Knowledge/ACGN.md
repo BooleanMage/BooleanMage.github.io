@@ -2,4 +2,4 @@
 layout: default
 ---
 
-[Game](./Game)  
+[Game](./ACGN/Game)  

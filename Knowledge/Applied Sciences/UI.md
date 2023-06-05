@@ -2,5 +2,5 @@
 layout: default
 ---
 
-[FaviconDesign](./FaviconDesign)  
+[FaviconDesign](./UI/FaviconDesign)  
 [FaviconDesign](./UI/FaviconDesign)  

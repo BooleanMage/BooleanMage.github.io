@@ -2,4 +2,4 @@
 layout: default
 ---
 
-[Galgame](./Galgame)  
+[Galgame](./AVG/Galgame)  

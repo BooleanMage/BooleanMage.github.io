@@ -4,7 +4,10 @@ import glob
 folders = ["./Knowledge", "./Lecture"]
 
 def write_md_file(folder_path):
-    with open(f"{folder_path}.md", 'w', encoding='utf8') as f:
+    parent_folder_path = os.path.dirname(folder_path)
+    parent_folder_basename = os.path.basename(folder_path)
+
+    with open(f"{parent_folder_path}/{parent_folder_basename}.md", 'w', encoding='utf8') as f:
         for filename in glob.glob(f"{folder_path}/*"):
             # skip the .md file we're currently writing
             if filename == f"{folder_path}":
@@ -15,16 +18,16 @@ def write_md_file(folder_path):
 
             # check if this is a directory
             if os.path.isdir(filename):
-                f.write(f'[{basename}](./{basename})  \n')  # add .md to link
+                # add a link to the directory in the parent folder's markdown file
+                f.write(f'[{basename}](./{parent_folder_basename}/{basename})  \n')
                 # Recursively process the subdirectory
                 write_md_file(filename)
             else:
                 # split the extension from the filename
                 name, ext = os.path.splitext(basename)
                 if ext == '.md':
-                    # extract the name of the immediate parent directory
-                    parent_folder = os.path.basename(os.path.dirname(filename))
-                    f.write(f'[{name}](./{parent_folder}/{name})  \n')
+                    # add a link to the markdown file in the parent folder's markdown file
+                    f.write(f'[{name}](./{parent_folder_basename}/{name})  \n')
 
 for folder in folders:
     write_md_file(folder)
