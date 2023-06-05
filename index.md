@@ -5,14 +5,22 @@
 layout: default
 ---
 
+# <img src="http://www.posetmage.com/Icon/New/QuantumNecro_t.png" Height="32" /> LatticeMage <img src="http://www.posetmage.com/Icon/New/QuantumNecro_t.png" Height="32" />
 
-歡迎來到 PosetMage 的主頁，想要認識更多請到 [About Me](/About)
+LatticeMage是PosetMage的子品牌，這個頻道主軸是下個世代思維，因為我們正面臨大AI時代，生產和社會的邏輯會跟以往不同
+。為了面對下一個世代，這個頻道會提供一人團隊創業思維、協槓藍海策略、個人品牌定位等各種主題，用AI或其他工具輔助這些概念。
+可以觀看播放清單中的創業思維系列，個人成長系列，有任何想法或問題都歡迎在影片下方留言討論。
 
-PosetMage 的部落格文章在 [Blogger](/Blogger)
+## [YT - LatticeMage](http://youtube.com/@LatticeMage)
 
-想要看 PosetMage 的設定書請至 [SettingBook](/SettingBook)
+## [知識庫](/Knowledge)
+知識庫為創作用的參考區
 
-子品牌為 [LatticeMage](https://wiki.posetmage.com)
+## [上課教材](/Lecture)
+上課教材是1v1家教用的講義
 
-連絡我的方式請至 [Contact](/Contact)
+## [About Me](http://posetmage.com/about/)
 
+## [Contact](http://posetmage.com/contact/)
+
+## 主站 [PosetMage](http://posetmage.com/)

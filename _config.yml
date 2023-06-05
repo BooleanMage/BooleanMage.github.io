@@ -18,37 +18,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: PosetMage
-email: mail@posetmage.com
+title: PosetMage Wiki
+email: latticemage@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  See more in About Me. This is PosetMage, loving ACGN.
+   "This is the wiki page from posetmage"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://posetmage.com" # the base hostname & protocol for your site, e.g. http://example.com
-youtube_username: "@PosetMage"
-facebook_username: PosetMage
-twitter_username: PosetMage
-github_username:  PosetMage
-settingbook_link: "https://posetmage.com/SettingBook"
+url: "https://wiki.posetmage.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 site_favicon: favicon.ico
 
-
-feed:
-  title: "PosetMage"
-  description: "PosetMage"
-  author: "PosetMage"
-  email: "mail@posetmage.com"
-  url: "https://posetmage.com"
-  output: true
-
-
 # Build settings
-theme: minima
+remote_theme: pages-themes/hacker@v0.2.0
+
 plugins:
   - jekyll-external-links
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-category-pages
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
