@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Lecture
 ---
 
 [AI溝通師](./AI溝通師)  

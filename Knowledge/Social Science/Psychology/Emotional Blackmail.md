@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Emotional Blackmail
 ---
 
 # Emotional Blackmail

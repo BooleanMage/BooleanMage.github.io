@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Bass Line
 ---
 
 # Bass Line

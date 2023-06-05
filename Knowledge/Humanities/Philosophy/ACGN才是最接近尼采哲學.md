@@ -1,5 +1,6 @@
 ---
 layout: default
+title: ACGN才是最接近尼采哲學
 ---
 
 # acgn才是最接近尼采哲學

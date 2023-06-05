@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Life Planning
 ---
 
 # Life Planning

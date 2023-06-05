@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Rouguelike
 ---
 
 [Cult of the Lamb](./Cult of the Lamb)  

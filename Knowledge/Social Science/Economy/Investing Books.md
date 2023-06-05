@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Investing Books
 ---
 
 # Investing Books

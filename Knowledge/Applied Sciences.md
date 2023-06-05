@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Applied Sciences
 ---
 
 [Algorithm](./Algorithm)  

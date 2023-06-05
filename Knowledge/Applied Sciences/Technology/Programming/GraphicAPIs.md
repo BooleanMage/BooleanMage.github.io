@@ -1,5 +1,6 @@
 ---
 layout: default
+title: GraphicAPIs
 ---
 
 # DirectX11, 12, OpenGL, Vulkan

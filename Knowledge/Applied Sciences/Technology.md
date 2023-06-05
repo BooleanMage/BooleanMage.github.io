@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Technology
 ---
 
 [Creation](./Creation)  

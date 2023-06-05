@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Risk-embracement
 ---
 
 # Risk-embracement

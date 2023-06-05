@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Investing2
 ---
 
 # Investing 3

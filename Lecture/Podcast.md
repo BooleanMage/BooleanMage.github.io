@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Podcast
 ---
 
 [LatticeMage S02-創業思維-EP01 《從0到1》 Zero to One ｜斜槓｜一人公司｜一個人的獲利模式](https://youtu.be/aYZvxMGOxfc)

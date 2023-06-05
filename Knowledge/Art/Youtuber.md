@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Youtuber
 ---
 
 [ACGN YT](./ACGN YT)  

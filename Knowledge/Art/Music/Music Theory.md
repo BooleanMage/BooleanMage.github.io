@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Music Theory
 ---
 
 [Bass Line](./Bass Line)  

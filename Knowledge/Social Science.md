@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Social Science
 ---
 
 [Anti-capitalism](./Anti-capitalism)  

@@ -1,5 +1,6 @@
 ---
 layout: default
+title: 理論作曲 02 Training apps
 ---
 
 # 講義 理論作曲 02

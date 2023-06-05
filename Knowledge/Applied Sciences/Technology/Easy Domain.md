@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Easy Domain
 ---
 
 # Easy Domain

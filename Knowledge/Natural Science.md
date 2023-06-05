@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Natural Science
 ---
 
 [Biology](./Biology)  

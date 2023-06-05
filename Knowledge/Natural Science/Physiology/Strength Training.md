@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Strength Training
 ---
 
 # Strength Training

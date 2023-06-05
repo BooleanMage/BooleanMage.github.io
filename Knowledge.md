@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Knowledge
 ---
 
 [ACGN](./ACGN)  

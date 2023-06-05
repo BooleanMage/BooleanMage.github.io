@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Creation
 ---
 
 [AI-UBI](./AI-UBI)  

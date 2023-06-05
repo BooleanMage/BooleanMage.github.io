@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Economy
 ---
 
 [All-in](./All-in)  
