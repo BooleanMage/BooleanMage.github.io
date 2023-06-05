@@ -4,7 +4,7 @@ import glob
 folders = ["./Knowledge", "./Lecture"]
 
 def write_md_file(folder_path):
-    with open(f"{folder_path}.md", 'w', encoding='utf8') as f:
+    with open(f"{folder_path}_folder.md", 'w', encoding='utf8') as f:
         for filename in glob.glob(f"{folder_path}/*"):
             # skip the .md file we're currently writing
             if filename == f"{folder_path}":
