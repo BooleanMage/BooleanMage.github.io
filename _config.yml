@@ -37,7 +37,7 @@ social:
     url: https://twitter.com/latticemage
 
 
-site_favicon: favicon.ico
+site_favicon: index.png
 includes_dir: _shared/_includes
 layouts_dir: _shared/_layouts
 
