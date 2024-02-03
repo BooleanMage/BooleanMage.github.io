@@ -1,0 +1,4 @@
+[submodule "_shared"]
+	path = _shared
+	url = ../jekyll-shared-components.git
+	branch = main
