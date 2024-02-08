@@ -6,27 +6,43 @@
       word-wrap: break-word;
     }
 
-    .sidebar {
-      position: fixed;
-      margin-left: 0px;
-
-      flex: 0 0 13em; /* Fixed width for the sidebar */
-      width: 150px; /* Reduced from 200px */
-    }
-
     .sidebar p {
       margin: 0;
       padding: 0;
       line-height: 1.2em;
     }
+        
+    /* Base styles for smaller screens */
+    @media (max-width: 767px) {
+      .sidebar {
+          position: fixed;
+          left: 0;
+          width: 90px; /* Reduced width for smaller screens */
+      }
 
-    .page-content {      
-      margin-left: 170px; /* Reduced from 210px */
-      margin-right: 170px;
+      .page-content {
+        flex-grow: 1; /* Consumes the rest of the space */  
+        margin-left: 80px; /* Make room for the sidebar */
+        margin-right: 100px; /* Make room for the sidebar */
+          
+        width: calc(100% - 100px); /* Use remaining viewport width */
+      }
+    }
 
+    /* Styles for larger screens */
+    @media (min-width: 768px) { /* Adjust this breakpoint as needed */
+          .sidebar {
+          position: fixed;
+          flex: 0 0 13em; /* Fixed width for the sidebar */
+          width: 150px;
+        }
 
-      flex-grow: 1; /* Consumes the rest of the space */
-      max-width: calc(100% - 170px);
+        .page-content {
+          flex-grow: 1; /* Consumes the rest of the space */
+          margin-left: 200px;
+          margin-right: 200px;          
+          max-width: calc(100% - 150px);
+        }
     }
   </style>
 </head>
