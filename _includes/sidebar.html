@@ -8,6 +8,8 @@
 
     .sidebar {
       position: fixed;
+      margin-left: 0px;
+
       flex: 0 0 13em; /* Fixed width for the sidebar */
       width: 150px; /* Reduced from 200px */
     }
@@ -18,11 +20,13 @@
       line-height: 1.2em;
     }
 
-    .page-content {
-      margin-left: 200px; /* Reduced from 210px */
-      margin-right: 200px;
+    .page-content {      
+      margin-left: 170px; /* Reduced from 210px */
+      margin-right: 170px;
+
+
       flex-grow: 1; /* Consumes the rest of the space */
-      max-width: calc(100% - 150px);
+      max-width: calc(100% - 170px);
     }
   </style>
 </head>
