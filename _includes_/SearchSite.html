@@ -1,0 +1,18 @@
+<script>
+    function SearchSite() {
+        var searchBox = document.getElementById('searchQuery');
+        var query = searchBox.value;
+        var protocol = window.location.protocol;
+        var hostname = window.location.hostname;
+        var siteSearch = 'site:' + hostname + '/';
+
+        var searchString = protocol + '//www.google.com/search?q=' + encodeURIComponent(query + " " + siteSearch);
+        
+        // Print the search string to the browser's console for debugging
+        console.log('Search URL:', searchString);
+
+        if (query.trim().length > 0) {
+            window.open(searchString);
+        }
+    }
+</script>

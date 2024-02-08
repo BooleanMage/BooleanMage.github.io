@@ -1,0 +1,33 @@
+---
+layout: notes
+---
+
+<div class="page">
+  {{ content | markdownify }}
+
+  <ul>
+  {% assign current_path_array = page.url | split: "/" %}
+  {% assign current_depth = current_path_array.size %}
+  {% assign next_depth = current_depth | plus: 1 %}
+
+  {% for file in site.pages %}
+    {% assign file_path = file.url %}
+    {% assign file_path_array = file.url | split: "/" %}
+    {% assign file_depth = file_path_array.size %}
+
+    {% if file_path contains page.url and file_path != page.url and file_depth == next_depth %}
+      {% assign last_element = file_path_array | last %}
+      {% if last_element contains ".html" %}
+        {% if file.title %}
+          <li><a href="./{{ last_element }}">{{ file.title }}</a></li>
+        {% else %}
+          <li><a href="./{{ last_element }}">{{ last_element | replace: '.html', '' | replace: '%20', ' ' }}</a></li>
+        {% endif %}
+      {% else %}
+        <li><a href="./{{ last_element }}/">{{ last_element }}</a></li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  </ul>
+</div>

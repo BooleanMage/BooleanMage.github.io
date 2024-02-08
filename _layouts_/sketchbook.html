@@ -1,0 +1,68 @@
+---
+layout: base
+---
+
+<style>
+  .canvas-container canvas {
+      width: 100%; /* Responsive width */
+  }
+</style>
+
+<div class="canvas-container">
+  <canvas id="imageCanvas"></canvas>
+</div>
+
+<script>
+  window.onload = function() {
+      var canvas = document.getElementById("imageCanvas");
+      var context = canvas.getContext("2d");
+
+      var basePath = "/Sketchbook/Images/{{ page.date | date: '%Y-%m-%d' }}";
+      var imageIndex = 1; // Start with the first image
+      var loadedImages = 0;
+      var images = [];
+      var totalHeight = 0;
+      var maxWidth = 800; // Maximum width for images
+
+      function loadNextImage() {
+          var formattedIndex = ("0" + imageIndex).slice(-2); // Ensure two digits
+          var imagePath = basePath + "/" + formattedIndex + ".jpg";
+
+          var img = new Image();
+          img.onload = function() {
+              loadedImages++;
+              if (this.width > maxWidth) {
+                  this.height *= maxWidth / this.width;
+                  this.width = maxWidth;
+              }
+              totalHeight += this.height;
+              images.push(this);
+
+              drawImages(); // Redraw every time an image is successfully loaded
+              imageIndex++;
+              loadNextImage(); // Attempt to load the next image
+          };
+
+          img.onerror = function() {
+              console.error("Image failed to load:", this.src);
+              // Stop loading more images if one fails to load
+          };
+
+          img.src = imagePath;
+      }
+
+      function drawImages() {
+          canvas.width = maxWidth;
+          canvas.height = totalHeight;
+          var currentY = 0;
+
+          for (var i = 0; i < images.length; i++) {
+              context.drawImage(images[i], 0, currentY, images[i].width, images[i].height);
+              currentY += images[i].height;
+          }
+      }
+
+      loadNextImage(); // Start the image loading process
+  };
+</script>
+

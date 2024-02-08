@@ -1,0 +1,27 @@
+
+<head>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<style>
+    /* Adjust the font size for larger icons */
+    .social-media-list i {
+        font-size: 36px; /* You can adjust the value as needed */
+    }
+
+    a + a {
+        margin-left: 32px; /* You can adjust the value as needed */
+    }
+</style>
+
+<ul class="social-media-list">
+    {% for network in site.social %}
+        <a href="{{ network.url }}">
+            {% if network.platform == "envelope" %}
+                <i class="fas fa-{{ network.platform }}"></i>
+            {% else %}
+                <i class="fab fa-{{ network.platform }}"></i>
+            {% endif %}
+        </a>
+    {% endfor %}
+</ul>

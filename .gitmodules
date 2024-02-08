@@ -1,9 +1,0 @@
-[submodule "_includes"]
-	path = _includes
-	url = https://github.com/LatticeMage/Jekyll_includes.git
-	branch = main
-
-[submodule "_layouts"]
-	path = _layouts
-	url = https://github.com/LatticeMage/latticemage_layouts.git
-	branch = main

@@ -1,0 +1,106 @@
+---
+layout: base
+---
+
+<head>
+  {% seo %}
+  <style>
+    .container {
+      display: flex;
+    }
+
+    .sidebar {
+      position: fixed;
+      width: 150px; /* Reduced from 200px */
+      padding: 1em;
+      overflow: auto;
+      height: 100vh;
+    }
+
+    .content {
+      margin-left: 200px; /* Reduced from 210px */
+    }
+
+    /* Reduced line height and spacing for ToC items */
+    .sidebar p {
+      margin: 0;
+      padding: 0;
+      line-height: 1.2em;
+    }
+  </style>
+</head>
+
+
+<body>    
+  <main class="page-content" aria-label="Content">
+    <div class="sidebar" id="toc"></div>
+    <div class="content">
+      <section id="main_content">
+        {{ content }}
+      </section>
+    </div>
+  </main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Fetch all the headers
+        var headers = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+
+        // Prepare an empty object to store our ToC
+        var toc = [];
+
+        // Loop over the headers
+        headers.forEach(function(header, index) {
+            // Give each header an id
+            var id = 'header-' + index;
+            header.id = id;
+
+            // Push the header to our ToC
+            toc.push({
+                id: id,
+                text: header.innerText,
+                tagName: header.tagName
+            });
+        });
+
+    // Get the current page URL
+    var href = window.location.href;
+    var parentDirectory;
+
+    // Check if the URL ends with a slash (directory) or has no file extension
+    if (href.endsWith('/') || !href.includes('.')) {
+        // If so, just go up one directory
+        parentDirectory = '../';
+    } else {
+        // Otherwise, remove the last segment of the URL and go up one directory
+        parentDirectory = href.substring(0, href.lastIndexOf('/')) + '/../';
+      }
+
+        // Prepare an empty string to build our ToC HTML
+        var tocHTML = '<p><a href="/Blog">Previous Layer</a></p>'; // Include the link to parent directory
+
+        // Loop over our ToC
+        toc.forEach(function(tocItem) {
+            // Add an indent based on the header level
+            // Calculate indent and font size based on the header level
+            var level = parseInt(tocItem.tagName.substring(1)) - 1;
+            var indent = level * 2; // Increase indent for each level
+            var fontSize = (1 - level * 0.1) + 'em'; // Decrease font size for each level
+            
+            // Apply a negative text-indent on the first line to counteract the indent on following lines
+            var style = 'text-indent: ' + indent + 'em; font-size: ' + fontSize + ';';
+            var firstLineStyle = 'display: inline-block; text-indent: -' + indent + 'em; margin-left: ' + indent + 'em;';
+
+            // Add the item to the ToC HTML
+            tocHTML += '<p style="' + style + '"><span style="' + firstLineStyle + '"><a href="#' + tocItem.id + '">' + '◇' + tocItem.text + '</a></p>';
+        });          
+
+
+        // Inject our ToC into the div
+        document.getElementById('toc').innerHTML = tocHTML;
+    });
+
+  </script>
+
+  
+</body>

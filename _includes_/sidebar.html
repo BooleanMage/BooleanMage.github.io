@@ -1,0 +1,46 @@
+<head>
+  <style>
+    .page-container {
+      display: flex;
+      flex-wrap: wrap; /* Allow items to wrap as needed */
+      word-wrap: break-word;
+    }
+
+    .sidebar {
+      position: fixed;
+      flex: 0 0 13em; /* Fixed width for the sidebar */
+      width: 150px; /* Reduced from 200px */
+    }
+
+    .sidebar p {
+      margin: 0;
+      padding: 0;
+      line-height: 1.2em;
+    }
+
+    .page-content {
+      margin-left: 200px; /* Reduced from 210px */
+      margin-right: 200px;
+      flex-grow: 1; /* Consumes the rest of the space */
+      max-width: calc(100% - 150px);
+    }
+  </style>
+</head>
+
+</style>  
+
+<div class="page-container">
+  <aside class="sidebar" id="outline">
+    <!-- Sidebar content will be loaded here -->
+  </aside>
+
+  <main class="page-content">
+    <article class="post">
+      {% seo %}
+      <div class="post-content">
+        {{ content }}
+      </div>
+    </article>
+  </main>
+
+</div>
