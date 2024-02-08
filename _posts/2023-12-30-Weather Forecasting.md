@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "AI Advancements in Weather Forecasting"
 date:   2023-12-30 10:00:00 +0800
 tags: [Tech]

@@ -1,6 +1,4 @@
----
-layout: page
----
+
 
 LatticeMage is sub-brand from PosetMage, intresting on various feilds such as 
 * Evolution, Neuroscience, Biology, Learning Theory, Weight Training, Psychology, ...

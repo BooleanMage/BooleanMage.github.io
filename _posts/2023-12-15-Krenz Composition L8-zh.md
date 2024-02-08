@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Krenz 構成 L8心得"
 date:   2023-12-15 10:00:00 +0800
 tags: [Visual Art]

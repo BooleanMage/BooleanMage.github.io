@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Self-Awareness: From Athletic Performance to Personal Health"
 date:   2023-11-29 10:00:00 +0800
 tags: [Resilience]

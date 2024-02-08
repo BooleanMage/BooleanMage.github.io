@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "AI Revolution to see Knowledge and Creation"
 date:   2023-12-19 10:00:00 +0800
 tags: [Brain]

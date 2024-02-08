@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "from old indistry to new"
 date:   2023-12-16 10:00:00 +0800
 tags: [Entrepreneurship]

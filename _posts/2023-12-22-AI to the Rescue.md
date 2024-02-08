@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "AI to the Rescue: Reinvigorating Human Research and Culture"
 date:   2023-12-22 10:00:00 +0800
 tags: [Tech]

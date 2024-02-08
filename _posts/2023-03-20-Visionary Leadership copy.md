@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Visionary Leadership"
 date:   2023-03-20 10:00:00 +0800
 tags: [Learning]

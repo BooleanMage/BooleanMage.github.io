@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "slow is fast"
 date:   2023-12-13 10:00:00 +0800
 tags: [Resilience]

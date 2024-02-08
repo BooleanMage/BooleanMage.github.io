@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "speed is key in startup"
 date:   2023-12-09 10:00:00 +0800
 tags: [Entrepreneurship]

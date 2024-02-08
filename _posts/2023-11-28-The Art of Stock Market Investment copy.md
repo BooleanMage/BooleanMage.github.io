@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "The Art of Stock Market Investment: Decoding Strategies and Market Behaviors"
 date:   2023-11-28 10:00:00 +0800
 tags: [Investing]

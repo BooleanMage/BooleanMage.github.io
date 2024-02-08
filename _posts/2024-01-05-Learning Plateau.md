@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Learning Plateau"
 date:   2024-01-05 10:00:00 +0800
 tags: [Neuroscience]

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Iterative"
 date:   2023-11-30 10:00:00 +0800
 tags: [Entrepreneurship]

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Art-Music-Mapping"
 date:   2023-11-11 10:00:00 +0800
 tags: [Art]

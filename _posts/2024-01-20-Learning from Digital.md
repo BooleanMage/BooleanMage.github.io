@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Learning from Books to Digital Media"
 date:   2024-01-20 10:00:00 +0800
 tags: [Learning]
